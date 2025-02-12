@@ -19,7 +19,7 @@ import SearchResultItem from './components/SearchResultItem.jsx';
 import ItineraryList from './components/ItineraryList.jsx';
 import Login from './components/Login';
 import Signup from './components/Signup';
-import Home from './components/Home'; // Assuming you have a dedicated home page
+import Home from './pages/Home'; // Assuming you have a dedicated home page
 import PrivateRoute from './components/PrivateRoute'; // Route only accessible when authenticated
 
 function App() {
