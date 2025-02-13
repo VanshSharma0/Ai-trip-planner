@@ -5,11 +5,8 @@ import { AuthContext, AuthProvider } from './contexts/AuthContext';
 import { 
   ChakraProvider, 
   Box, 
-  Flex, 
-  // ... other components you might need
-} from '@chakra-ui/react'; // Or your preferred UI library
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
+  Flex
+} from '@chakra-ui/react'; 
 import './App.css';
 
 // Components 
