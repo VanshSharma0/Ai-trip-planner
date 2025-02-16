@@ -18,4 +18,3 @@ PopoverBody.propTypes = {
 };
 
 export default PopoverBody;
-export default PopoverBody;
