@@ -1,5 +1,6 @@
 // components/ui/PopoverBody.jsx
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const PopoverBody = ({ children, className, ...props }) => {
   return (
@@ -11,5 +12,10 @@ const PopoverBody = ({ children, className, ...props }) => {
     </div>
   );
 };
+PopoverBody.propTypes = {
+  children: PropTypes.node,
+  className: PropTypes.string,
+};
 
+export default PopoverBody;
 export default PopoverBody;
