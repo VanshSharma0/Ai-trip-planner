@@ -4,7 +4,7 @@ export { default as Image } from './Image';
 export { default as Button } from './Button';
 export { default as Navbar } from './Navbar.jsx';
 export { default as PopoverBody } from './PopoverBody.jsx';
-
+export { default as PopoverTrigger } from './PopoverTrigger.jsx';
 export {
   DropdownMenu,
   DropdownMenuTrigger,
